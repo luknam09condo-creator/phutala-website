@@ -1,0 +1,39 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: website
+    label: PHUTALA Website
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: hero_title
+        label: Main Heading
+        type: string
+      - name: hero_subtitle
+        label: Subtitle
+        type: text
+      - name: about_title
+        label: About Heading
+        type: string
+      - name: about_text
+        label: About Description
+        type: text
+      - name: hero_image
+        label: Cover Image
+        type: image
+      - name: about_image
+        label: About Image
+        type: image
+      - name: villa1_image
+        label: One Bedroom Photo
+        type: image
+      - name: villa2_image
+        label: Two Bedroom Photo
+        type: image
+      - name: villa3_image
+        label: Grand Villa Photo
+        type: image
