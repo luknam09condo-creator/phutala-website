@@ -1,0 +1,87 @@
+media:
+  input: media
+  output: /media
+  rename: safe
+  categories: [image]
+content:
+  - name: homepage
+    label: PHUTALA — Website content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: hero_title
+        label: "Hero — Main English heading"
+        type: string
+      - name: hero_description
+        label: "Hero — English description"
+        type: text
+      - name: hero_image
+        label: "Hero — Cover photo"
+        type: image
+      - name: about_title
+        label: "About — Heading"
+        type: string
+      - name: about_description
+        label: "About — Description"
+        type: text
+      - name: about_image
+        label: "About — Photo"
+        type: image
+      - name: villas_title
+        label: "Villas — Heading"
+        type: string
+      - name: villa1_name
+        label: "Villa 1 — English title"
+        type: string
+      - name: villa1_subtitle
+        label: "Villa 1 — Thai title"
+        type: string
+      - name: villa1_price
+        label: "Villa 1 — Starting price"
+        type: string
+      - name: villa1_image
+        label: "Villa 1 — Photo"
+        type: image
+      - name: villa2_name
+        label: "Villa 2 — English title"
+        type: string
+      - name: villa2_subtitle
+        label: "Villa 2 — Thai title"
+        type: string
+      - name: villa2_price
+        label: "Villa 2 — Price (leave blank if unknown)"
+        type: string
+      - name: villa2_image
+        label: "Villa 2 — Photo"
+        type: image
+      - name: villa3_name
+        label: "Villa 3 — English title"
+        type: string
+      - name: villa3_subtitle
+        label: "Villa 3 — Thai title"
+        type: string
+      - name: villa3_price
+        label: "Villa 3 — Price (leave blank if unknown)"
+        type: string
+      - name: villa3_image
+        label: "Villa 3 — Photo"
+        type: image
+      - name: location_title
+        label: "Location — Heading"
+        type: string
+      - name: contact_title
+        label: "Booking — Heading"
+        type: string
+      - name: contact_description
+        label: "Booking — Description"
+        type: text
+      - name: line_url
+        label: "LINE OA Link"
+        type: string
+      - name: facebook_url
+        label: "Facebook Link"
+        type: string
+      - name: maps_url
+        label: "Google Maps Link"
+        type: string
